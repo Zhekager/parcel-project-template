@@ -956,9 +956,6 @@ p {
   text-align: center;
   text-transform: uppercase;
   color: #ffa5ba;
-  animation-name: slideInUp;
-  animation-duration: 1s;
-  animation-timing-function: linear;
 }
 @media screen and (min-width: 768px) {
   .products-section__description {
@@ -983,9 +980,6 @@ p {
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #d41443;
-  animation-name: slideInUp;
-  animation-duration: 1s;
-  animation-timing-function: linear;
 }
 @media screen and (min-width: 768px) {
   .products-section__title {
@@ -1101,10 +1095,6 @@ p {
   top: -24%;
   left: 6%;
   background-image: url("/ice-cream-249.0a7811a8.png");
-  animation-name: tada;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 1s;
 }
 @media screen and (min-width: 768px) {
   .products-section__heading--ice-cream::before {
@@ -1134,10 +1124,6 @@ p {
   top: -24%;
   left: 6%;
   background-image: url("/ice-coffee-249.9da87a9d.png");
-  animation-name: tada;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 1s;
 }
 @media screen and (min-width: 768px) {
   .products-section__heading--ice-coffee::before {
@@ -1167,10 +1153,6 @@ p {
   top: -24%;
   left: 6%;
   background-image: url("/milkshakes-249.606391d0.png");
-  animation-name: tada;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 1s;
 }
 @media screen and (min-width: 768px) {
   .products-section__heading--milkshakes::before {
