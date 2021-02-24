@@ -148,7 +148,7 @@
 @media screen and (max-width: 1199px) {
   .menu_btn span {
     display: block;
-    height: 2px;
+    height: 1.8px;
     background-color: $accent-color;
     margin: 3px 0 0;
     transition: all 0.1s linear 0.25s;
@@ -533,6 +533,10 @@
   cursor: pointer;
   background-color: $text-white-color;
   fill: $accent-color;
+  &:hover,
+  &:focus{
+    transform: scale(1.5);
+  }
 }
 
 @media screen and (min-width: $tablet) {
@@ -729,7 +733,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 .block-anhor{

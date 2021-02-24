@@ -318,12 +318,19 @@
   border: transparent;
   border-radius: 50%;
   cursor: pointer;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
-    animation-name: changeBgColor;
-    animation-duration: 3s;
-    animation-timing-function: linear;
+    background-color: $accent-color;
+    color: $text-white-color;
+    outline: transparent;
+    // transform: scale(1.05);
+  
+    
+    // animation-name: changeBgColor;
+    // animation-duration: 3s;
+    // animation-timing-function: linear;
 
     @keyframes changeBgColor {
       0%,
@@ -344,4 +351,13 @@
 
 .products-section__arrow-icon {
   fill: $accent-color;
+  transition: fill 300ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+.products-section__button:hover &,
+.products-section__button:focus &{
+  fill: $text-white-color;
+  transform: scale(1.5);
+  
+   }
 }
