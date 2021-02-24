@@ -25,9 +25,9 @@
 
   color: $text-pink-color;
 
-  animation-name: slideInUp;
-  animation-duration: 1s;
-  animation-timing-function: linear;
+  // animation-name: slideInUp;
+  // animation-duration: 1s;
+  // animation-timing-function: linear;
 
   @media screen and (min-width: $tablet) {
     font-size: 26px;
@@ -53,9 +53,9 @@
 
   color: $accent-color;
 
-  animation-name: slideInUp;
-  animation-duration: 1s;
-  animation-timing-function: linear;
+  // animation-name: slideInUp;
+  // animation-duration: 1s;
+  // animation-timing-function: linear;
 
   @media screen and (min-width: $tablet) {
     margin-bottom: 150px;
@@ -171,10 +171,10 @@
 
   background-image: url('../images/products/mobile/ice-cream-249.png');
 
-  animation-name: tada;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 1s;
+  // animation-name: tada;
+  // animation-duration: 3s;
+  // animation-timing-function: linear;
+  // animation-delay: 1s;
 
   @media screen and (min-width: $tablet) {
     width: 220px;
@@ -206,10 +206,10 @@
 
   background-image: url('../images/products/mobile/ice-coffee-249.png');
 
-  animation-name: tada;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 1s;
+  // animation-name: tada;
+  // animation-duration: 3s;
+  // animation-timing-function: linear;
+  // animation-delay: 1s;
 
   @media screen and (min-width: $tablet) {
     width: 220px;
@@ -241,10 +241,10 @@
 
   background-image: url('../images/products/mobile/milkshakes-249.png');
 
-  animation-name: tada;
-  animation-duration: 3s;
-  animation-timing-function: linear;
-  animation-delay: 1s;
+  // animation-name: tada;
+  // animation-duration: 3s;
+  // animation-timing-function: linear;
+  // animation-delay: 1s;
 
   @media screen and (min-width: $tablet) {
     width: 220px;
@@ -325,13 +325,6 @@
     background-color: $accent-color;
     color: $text-white-color;
     outline: transparent;
-    // transform: scale(1.05);
-  
-    
-    // animation-name: changeBgColor;
-    // animation-duration: 3s;
-    // animation-timing-function: linear;
-
     @keyframes changeBgColor {
       0%,
       100% {
