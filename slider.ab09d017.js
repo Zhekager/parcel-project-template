@@ -117,20 +117,35 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"modal.js":[function(require,module,exports) {
-(function () {
-  var refs = {
-    openModalBtn: document.querySelector('[data-modal-open]'),
-    closeModalBtn: document.querySelector('[data-modal-close]'),
-    modal: document.querySelector('[data-modal]')
-  };
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+})({"slider.js":[function(require,module,exports) {
+var slides = document.querySelectorAll('#slides .customer__list--item');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide, 2000);
 
-  function toggleModal() {
-    refs.modal.classList.toggle('is-hidden');
-  }
-})();
+function nextSlide() {
+  slides[currentSlide].className = 'customer__list--item';
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].className = 'customer__list--item showing';
+}
+
+1;
+2;
+3;
+4;
+5;
+6;
+7;
+8;
+9;
+var slides = document.querySelectorAll('#slides .customer__list--item');
+var currentSlide = 0;
+var slideInterval = setInterval(nextSlide, 2000);
+
+function nextSlide() {
+  slides[currentSlide].className = 'customer__list--item';
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].className = 'customer__list--item showing';
+}
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -159,7 +174,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62057" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63899" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -335,5 +350,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","modal.js"], null)
-//# sourceMappingURL=/modal.130e4d6b.js.map
+},{}]},{},["../node_modules/parcel-bundler/src/builtins/hmr-runtime.js","slider.js"], null)
+//# sourceMappingURL=/slider.ab09d017.js.map
